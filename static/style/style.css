@@ -1,0 +1,21 @@
+.gameContainer{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.players-flex-box, .gameControls-flex-box, .gameResult-flex-box{
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.players-flex-box{
+    background: url("../images/cloth.jpg") center;
+    color: #ffffff;
+}
+.players-flex-box div{
+    height: 350px;
+}
