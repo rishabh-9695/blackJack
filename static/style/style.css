@@ -4,6 +4,7 @@
     margin: 0 auto;
     text-align: center;
 }
+
 .players-flex-box, .gameControls-flex-box, .gameResult-flex-box{
     display: flex;
     border: 1px solid black;
@@ -12,10 +13,36 @@
     justify-content: space-around;
     padding: 10px;
 }
-.players-flex-box{
+
+.players-flex-box, .gameControls-flex-box{
     background: url("../images/cloth.jpg") center;
     color: #ffffff;
 }
+
 .players-flex-box div{
+    flex:1;
+    border: 1px solid black;
     height: 350px;
+    padding: 10px;
+    text-align: center;
+}
+
+.players-flex-box img{
+    width: 25%;
+    padding: 10px;
+}
+
+.gameControls-flex-box button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.gameControls-flex-box div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
 }
